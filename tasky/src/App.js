@@ -5,7 +5,9 @@ function App() {
   return (
     <div className="App">
       <h1>Tasky</h1>
-      <Task />
+      <Task title="Dishes" deadline="Today" />
+      <Task title="Laundry" deadline="Tomorrow" />
+      <Task title="Tidy" deadline="Today" />
     </div>
   );
 }

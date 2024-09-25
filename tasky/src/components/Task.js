@@ -1,9 +1,12 @@
 import React from 'react';
 
-function Task(){
+const Task = (props) => {
     
     return (
-        <p>This is a task!</p>
+        <div>
+            <p>{props.title}</p>
+            <p>Due: {props.deadline}</p>
+        </div>
     )
 }
 
